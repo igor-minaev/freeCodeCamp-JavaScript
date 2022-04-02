@@ -170,3 +170,10 @@ myStr += "This is the second sentence.";
 // Only change code below this line
 const myName = "Igor";
 const myStr = "My name is " + myName + " and I am well!";
+
+/* Appending Variables to Strings */
+
+// Change code below this line
+const someAdjective = "very interesting thing!";
+let myStr = "Learning to code is ";
+myStr += someAdjective;
