@@ -339,3 +339,11 @@ const myList = [
   ["Tomato", 5],
   ["Cucumber", 3],
 ];
+
+/* Write Reusable JavaScript with Functions */
+
+function reusableFunction() {
+  console.log("Hi World");
+}
+
+reusableFunction();
