@@ -247,3 +247,8 @@ const wordBlanks =
   " angry " +
   myNoun; // Change this line
 // Only change code above this line
+
+/* Store Multiple Values in one Variable using JavaScript Arrays */
+
+// Only change code below this line
+const myArray = ["name", 3, "age", 66];
