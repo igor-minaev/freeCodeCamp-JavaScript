@@ -329,3 +329,13 @@ myArray.shift();
 
 // Only change code below this line
 myArray.unshift(["Paul", 35]);
+
+/* Shopping List */
+
+const myList = [
+  ["Milk", 1],
+  ["Bread", 2],
+  ["Butter", 1],
+  ["Tomato", 5],
+  ["Cucumber", 3],
+];
