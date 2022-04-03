@@ -347,3 +347,19 @@ function reusableFunction() {
 }
 
 reusableFunction();
+
+/* Passing Values to Functions with Arguments */
+
+function functionWithArgs(num1, num2) {
+  console.log(num1 + num2);
+}
+
+functionWithArgs(7, 9);
+
+/* Return a Value from a Function with Return */
+
+function timesFive(num) {
+  return num * 5;
+}
+
+timesFive(5);
