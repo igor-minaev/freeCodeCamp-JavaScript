@@ -252,3 +252,11 @@ const wordBlanks =
 
 // Only change code below this line
 const myArray = ["name", 3, "age", 66];
+
+/* Nest one Array within Another Array */
+
+// Only change code below this line
+const myArray = [
+  ["Igor", 29],
+  ["Alex", 34],
+];
