@@ -260,3 +260,8 @@ const myArray = [
   ["Igor", 29],
   ["Alex", 34],
 ];
+
+/* Access Array Data with Indexes */
+
+const myArray = [50, 60, 70];
+const myData = myArray[0];
