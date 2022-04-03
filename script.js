@@ -228,3 +228,22 @@ const lastName = "Lovelace";
 
 // Only change code below this line
 const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
+
+/* Word Blanks */
+
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+// Only change code below this line
+const wordBlanks =
+  "I " +
+  myVerb +
+  " very " +
+  myAdverb +
+  " when I saw a " +
+  myAdjective +
+  " angry " +
+  myNoun; // Change this line
+// Only change code above this line
