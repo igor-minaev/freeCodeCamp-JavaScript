@@ -930,3 +930,15 @@ cc(3);
 cc(7);
 cc("K");
 cc("A");
+
+/* Build JavaScript Objects */
+
+const myDog = {
+  // Only change code below this line
+  name: "Que",
+  legs: 4,
+  tails: 1,
+  friends: ["Alex", "John"],
+
+  // Only change code above this line
+};
