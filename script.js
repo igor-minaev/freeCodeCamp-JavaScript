@@ -1170,4 +1170,13 @@ const myArray = [];
 for (let i = 1; i <= 9; i += 2) {
   myArray.push(i);
 }
+// Only change code below this
+
+/* Count Backwards With a For Loop */
+
+// Setup
+const myArray = [];
+for (let i = 9; i >= 1; i -= 2) {
+  myArray.push(i);
+}
 // Only change code below this line
