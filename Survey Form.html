@@ -6,11 +6,15 @@
   <form id="survey-form">
     <div class="input-form">
       <label for="name">Name</label>
-      <input id="name" type="text" placeholder="Enter your name" required>
+      <input id="name" type="text" name="name" placeholder="Enter your name" required>
     </div>
     <div class="input-form">
       <label for="email">Email</label>
-      <input id="email" type="email" placeholder="Enter your Email" required>
+      <input id="email" type="email" name="email" placeholder="Enter your Email" required>
+    </div>
+    <div class="input-form">
+      <label for="number">Age</label>
+      <input id="number" type="number" name="age" min="1" max="99" placeholder="Age" required>
     </div>
   </form>
 </main>
