@@ -1491,12 +1491,14 @@ const {
 // Only change code above this line
 
 //Use Destructuring Assignment to Assign Variables from Arrays
+
 let a = 8,
   b = 6;
 [a, b] = [b, a];
 // Only change code below this line
 
 //Use Destructuring Assignment with the Rest Parameter to Reassign Array Elements
+
 const source = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 function removeFirstTwo(list) {
   // Only change code below this line
@@ -1507,6 +1509,7 @@ function removeFirstTwo(list) {
 const arr = removeFirstTwo(source);
 
 //Use Destructuring Assignment to Pass an Object as a Function's Parameters
+
 const stats = {
   max: 56.78,
   standard_deviation: 4.34,
@@ -1521,6 +1524,7 @@ const half = ({ max, min }) => (max + min) / 2.0;
 // Only change code above this line
 
 //Create Strings using Template Literals
+
 const result = {
   success: ["max-length", "no-amd", "prefer-arrow-functions"],
   failure: ["no-var", "var-on-top", "linebreak"],
@@ -1538,3 +1542,15 @@ function makeList(arr) {
 }
 
 const failuresList = makeList(result.failure);
+
+//Write Concise Object Literal Declarations Using Object Property Shorthand
+
+const createPerson = (name, age, gender) => {
+  // Only change code below this line
+  return {
+    name,
+    age,
+    gender,
+  };
+  // Only change code above this line
+};
